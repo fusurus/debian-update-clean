@@ -1,20 +1,24 @@
-# Debian/Ubuntu System Maintenance Script
+# debian-update-clean.sh
 
-🔧 **Automated script to update, upgrade, and clean Debian/Ubuntu systems.**
+🔧 **Automated Debian/Ubuntu System Update & Clean Script**  
 
-📋 功能
-  -✅ 更新软件包列表 (apt update)
-  
-  -✅ 升级所有软件包 (apt full-upgrade)
-  
-  -✅ 删除无用依赖 (apt autoremove)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/fusurus/debian-update-clean/blob/main/LICENSE)  
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/fusurus/debian-update-clean/pulls)  
 
-  -✅ 清理缓存 (apt clean)
+---
 
-## 使用
+## 🚀 **功能**  
+- `apt update` → Refresh package lists  
+- `apt full-upgrade -y` → Upgrade all packages (including dependencies)  
+- `apt autoremove -y` → Remove unused packages  
+- `apt clean` → Clear downloaded package cache  
+
+---
+
+## 🛠️ **用法**  
+
+### **Quick Run**  
 ```bash
-wget https://raw.githubusercontent.com/fusurus/debian-update-clean/main/debian-update-clean.sh
-
-chmod +x debian-update-clean.sh
-
+sudo wget -O debian-update-clean.sh https://raw.githubusercontent.com/fusurus/debian-update-clean/main/debian-update-clean.sh && \
+sudo chmod +x debian-update-clean.sh && \
 sudo ./debian-update-clean.sh
