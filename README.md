@@ -4,11 +4,11 @@
 
 ## 特征
 - Updates package lists (`apt update`)
-- 
+  
 - Upgrades all packages (`apt full-upgrade`)
-- 
+
 - Removes unused packages (`apt autoremove`)
-- 
+  
 - Cleans package cache (`apt clean`)
 
 ## 使用
