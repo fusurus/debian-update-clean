@@ -2,14 +2,14 @@
 
 🔧 **Automated script to update, upgrade, and clean Debian/Ubuntu systems.**
 
-## 特征
-- Updates package lists (`apt update`)
+📋 功能
+  ✅ 更新软件包列表 (apt update)
   
-- Upgrades all packages (`apt full-upgrade`)
+  ✅ 升级所有软件包 (apt full-upgrade)
+  
+  ✅ 删除无用依赖 (apt autoremove)
 
-- Removes unused packages (`apt autoremove`)
-  
-- Cleans package cache (`apt clean`)
+✅ 清理缓存 (apt clean)
 
 ## 使用
 ```bash
@@ -17,4 +17,4 @@ wget https://raw.githubusercontent.com/fusurus/debian-update-clean/main/debian-u
 
 chmod +x debian-update-clean.sh
 
-./debian-update-clean.sh
+sudo ./debian-update-clean.sh
