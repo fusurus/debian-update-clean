@@ -10,6 +10,6 @@
 
 ## Usage
 ```bash
-wget https://raw.githubusercontent.com/yourusername/debian-system-maintenance/main/debian-system-maintenance.sh
-chmod +x debian-system-maintenance.sh
-./debian-system-maintenance.sh
+wget https://raw.githubusercontent.com/fusurus/debian-system-maintenance/main/debian-update-clean.sh
+chmod +x debian-update-clean.sh
+./debian-update-clean.sh
