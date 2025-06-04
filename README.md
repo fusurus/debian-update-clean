@@ -3,13 +3,13 @@
 🔧 **Automated script to update, upgrade, and clean Debian/Ubuntu systems.**
 
 📋 功能
-  ✅ 更新软件包列表 (apt update)
+  -✅ 更新软件包列表 (apt update)
   
-  ✅ 升级所有软件包 (apt full-upgrade)
+  -✅ 升级所有软件包 (apt full-upgrade)
   
-  ✅ 删除无用依赖 (apt autoremove)
+  -✅ 删除无用依赖 (apt autoremove)
 
-✅ 清理缓存 (apt clean)
+  -✅ 清理缓存 (apt clean)
 
 ## 使用
 ```bash
