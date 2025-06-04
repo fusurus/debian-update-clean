@@ -13,7 +13,7 @@
 
 ## 使用
 ```bash
-wget https://raw.githubusercontent.com/fusurus/debian-system-maintenance/main/debian-update-clean.sh
+wget https://raw.githubusercontent.com/fusurus/debian-update-clean/main/debian-update-clean.sh
 
 chmod +x debian-update-clean.sh
 
